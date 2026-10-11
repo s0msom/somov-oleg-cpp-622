@@ -64,5 +64,21 @@ vcpkg_installed/
 *.dwo
 
 # test output & cache
+
+# CLion
+.idea/
+cmake-build-*/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# macOS
+.DS_Store
+
+# Compiled files
+*.o
+*.out
+*.exe
 Testing/
 .cache/
